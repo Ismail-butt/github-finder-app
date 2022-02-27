@@ -6,7 +6,6 @@ import Spinner from "../components/layout/Spinner"
 import RepoList from "../components/repos/RepoList"
 import GithubContext from "../context/github/GithubContext"
 import { getUserAndRepos } from "../context/github/GithubActions"
-import { fromJSON } from "postcss"
 
 function User() {
   const { user, loading, repos, dispatch } = useContext(GithubContext)
